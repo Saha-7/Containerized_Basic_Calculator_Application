@@ -20,3 +20,35 @@ Prerequisities :
 * Through VS Code inside the `src` create files for HTML, CSS & JavaScript code. Copy the the code from this Repository's `src` folder.
 * Similarly copy the `dockerfile` also.
 
+##STEP 3 :
+* Just like the previous image step into the `Project folder` directory. Then you have to build the image for that run this command -
+```bash
+  docker build -t calculator .
+```
+* Then to see the image is build or not run -
+```bash
+  docker images
+```
+* Then we have to run the container run -
+```bash
+ docker run -d -p 5000:80 Basic-Calculator calculator
+```
+* After that a long container id will be given to you, that means container runs successfully.
+* You can also refer to the image below.
+![](https://github.com/Saha-7/Containerized_Basic_Calculator_Application/blob/main/Screenshots/2.png)
+
+## STEP 4 :
+* To access the application through browser type & search.
+```bash
+http://localhost:5000/
+```
+
+##Some demo images :
+
+![](https://github.com/Saha-7/Containerized_Basic_Calculator_Application/blob/main/Screenshots/3.png)
+![](https://github.com/Saha-7/Containerized_Basic_Calculator_Application/blob/main/Screenshots/4.png)
+
+## Contact Me
+
+- If you like this project give this repository a star & fork it.
+- If you still have any issue you can contact me on my [Twitter](https://twitter.com/saha7pritam) .
